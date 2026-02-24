@@ -1,4 +1,11 @@
 using System;
 
-// README.md를 읽고 아래에 코드를 작성하세요.
-Console.WriteLine("코드를 작성하세요.");
+ScoreTracker course1 = new ScoreTracker("수학");
+course1.ShowScore();
+course1.SetScore(85);
+course1.AddBonus(10);
+course1.AddBonus(20);
+course1.SetScore(101);
+Console.WriteLine();
+course1.ShowScore();
+
