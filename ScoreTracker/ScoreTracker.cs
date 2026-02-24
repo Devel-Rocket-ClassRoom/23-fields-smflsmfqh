@@ -33,9 +33,10 @@ class ScoreTracker
             currentScore = maxScore;
         }
         bonusCount++;
-        Console.Write($"{bonus}점 보너스 적용! 현재 점수: {currentScore}");
+        Console.Write($"{bonus}점 보너스 적용! 현재 점수: {currentScore} ");
         if (currentScore == maxScore) Console.WriteLine("(최대 점수 도달)");
         Console.WriteLine();
+     
     }
     public void ShowScore()
     {
