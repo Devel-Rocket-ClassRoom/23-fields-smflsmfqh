@@ -11,7 +11,7 @@ class ClassroomManager
     public ClassroomManager(string className)
     {
         this.className = className;
-        this.studentNames = new string[maxCount];
+        studentNames = new string[maxCount];
         totalClassCount++;
     }
 
